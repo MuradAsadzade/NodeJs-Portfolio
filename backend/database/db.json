@@ -1,0 +1,41 @@
+{
+  "services": [
+    {
+      "id": 5,
+      "name": "Test",
+      "description": "Description"
+    },
+    {
+      "id": 6,
+      "name": "Test 6",
+      "description": "Description 6"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "name": "Front-End Developer"
+    },
+    {
+      "id": 2,
+      "name": "Back-End Developer"
+    }
+  ],
+  "portfolios": [
+    {
+      "id": 1,
+      "name": "Kinderland",
+      "description": "Description"
+    }
+  ],
+  "experiences": [],
+  "messages": [
+    {
+      "id": 1,
+      "name": "Murad Asadzade",
+      "email": "muradesedzade2004@gmail.com",
+      "subject": "MERN-Stack Developer",
+      "message": "I am a developer"
+    }
+  ]
+}
