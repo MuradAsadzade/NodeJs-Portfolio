@@ -1,36 +1,49 @@
 const {
   GET_ALL_SERVICES,
+  GET_ONE_SERVICE,
   CREATE_SERVICES,
   DELETE_SERVICE,
   UPDATE_SERVICE,
   GET_ALL_SKILLS,
+  GET_ONE_SKILL,
   CREATE_SKILLS,
   DELETE_SKILL,
   UPDATE_SKILL,
   GET_ALL_MESSAGES,
+  GET_ONE_MESSAGE,
   CREATE_MESSAGES,
   DELETE_MESSAGE,
   UPDATE_MESSAGE,
   GET_ALL_EXPERIENCES,
+  GET_ONE_EXPERIENCE,
   CREATE_EXPERIENCES,
   DELETE_EXPERIENCE,
   UPDATE_EXPERIENCE,
   GET_ALL_PORTFOLIOS,
+  GET_ONE_PORTFOLIO,
   CREATE_PORTFOLIOS,
   DELETE_PORTFOLIO,
   UPDATE_PORTFOLIO,
+  GET_ALL_SETTINGS,
+  GET_ONE_SETTING,
+  UPDATE_SETTING,
+  CREATE_SETTINGS,
+  DELETE_SETTING
 } = require("../utils/url-helper");
 const serviceController = require("../controllers/service-controller");
 const skillController = require("../controllers/skill-controller");
 const messageController = require("../controllers/message-controller");
 const experienceController = require("../controllers/experience-controller");
 const portfolioController = require("../controllers/portfolio-controller");
+const settingController = require("../controllers/setting-controller");
 
 const Router = require("./router");
 
 const router = new Router();
 
 router.addRoute(GET_ALL_SERVICES, serviceController.getServices);
+// router.addRoute(GET_ONE_SERVICE, serviceController.getServices);
+
 router.addRoute(CREATE_SERVICES, serviceController.createService);
 router.addRoute(DELETE_SERVICE, serviceController.deleteService, true);
 router.addRoute(UPDATE_SERVICE, serviceController.updateService, true);
@@ -54,5 +67,10 @@ router.addRoute(GET_ALL_PORTFOLIOS, portfolioController.getPortfolios);
 router.addRoute(CREATE_PORTFOLIOS, portfolioController.createPortfolio);
 router.addRoute(DELETE_PORTFOLIO, portfolioController.deletePortfolio, true);
 router.addRoute(UPDATE_PORTFOLIO, portfolioController.updatePortfolio, true);
+
+router.addRoute(GET_ALL_SETTINGS, settingController.getSettings);
+router.addRoute(CREATE_SETTINGS, settingController.createSetting);
+router.addRoute(DELETE_SETTING, settingController.deleteSetting, true);
+router.addRoute(UPDATE_SETTING, settingController.updateSetting, true);
 
 module.exports = router.handleRoute.bind(router);

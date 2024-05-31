@@ -18,6 +18,17 @@ const getGenericTableData = async (tableKey) => {
     return data[tableKey]
 }
 
+const getModelFromTable = async (tableKey,id) => {
+    const data = await readAllJsonFromText();
+    const index = data[tableKey].findIndex(item => item.id === model.id);
+    if (index === -1) {
+        throw new Error(`Model with id ${model.id} not found`);
+    }
+    return data[tableKey][index];
+}
+
+
+
 const addModelToTable = async (tableKey, model) => {
     const data = await readAllJsonFromText();
     const modelAdding = { id:generateUniqueId(data[tableKey]), ...model }
