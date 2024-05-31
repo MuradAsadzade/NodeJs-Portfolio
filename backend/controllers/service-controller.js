@@ -18,20 +18,6 @@ const getServices = async (req, res) => {
   );
 };
 
-const getOneService = async (req, res,id) => {
-  const response = await serviceService.getServices();
-
-  generateResponse(
-    new ResponseConfig(
-      200,
-      req,
-      res,
-      CONTENT_TYPES[".json"],
-      JSON.stringify(response)
-    )
-  );
-};
-
 const createService = async (req, res) => {
     const body = await parseRequestBody(req)
     const service = new Service(body)

@@ -3,106 +3,87 @@
     {
       "id": 1,
       "name": "Front-End Development",
-      "description": "Description"
+      "description": "ReactJs Developer"
     },
     {
       "id": 2,
       "name": "Back-End Development",
-      "description": "Description"
+      "description": "Python and NodeJS Developer"
     },
     {
       "id": 3,
-      "name": "Front-End Development",
-      "description": "2 years"
-    },
-    {
-      "id": 10,
-      "name": null
+      "name": "Help-Desk Specialist",
+      "description": "Intern at Socar ITRI"
     }
   ],
   "skills": [
     {
       "id": 1,
       "name": "Back-End Development",
-      "percent": 70
+      "percent": 80
     },
     {
       "id": 2,
       "name": "Front-End Development",
-      "percent": 100
+      "percent": 80
     }
-    
   ],
   "portfolios": [
-    {
-      "id": 1,
-      "name": "Kinderland",
-      "description": "Kinderland",
-      "imageUrl": "https://kinderland.az/resize/center/pages/8/a6c91597-9866-4555-a501-68b5c3b24cea.png"
-    }
+   
   ],
   "experiences": [
     {
-      "id": 3,
-      "name": "GoTrend MMC",
-      "startDate": "2021-09-01",
-      "endDate": "2022-01-06",
-      "position": "Front-End Developer",
+      "id": 1,
+      "name": "Digital Umbrella",
+      "startDate": "2024-06-01",
+      "endDate": "2024-07-01",
+      "position": "Front-End Developer Intern",
       "description": "Description",
-      "imageUrl": "https://scontent.fgyd1-1.fna.fbcdn.net/v/t39.30808-6/301805170_366014862414277_3713992585010278096_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=a2iLGJqwYwQQ7kNvgG1iAz5&_nc_oc=Adhaic_pwBMHJaIl04hqUphhQke7MhnkhcBXEDWt8OA-mTXdx4StneXcDt3ctm2iOko&_nc_ht=scontent.fgyd1-1.fna&oh=00_AYBldSGZVmTVakDjTTyu4NAsbqT1qWSemxhq1aBWqa6lqw&oe=665B6A54"
+      "imageUrl": "https://digirella.az/favicon.ico"
     },
     {
-      "id": 4,
-      "name": "Optima Gropu Co",
-      "startDate": "2022-01-06T00:00:00.000Z",
-      "endDate": "2023-07-15T00:00:00.000Z",
-      "imageUrl": "https://media.licdn.com/dms/image/C4D0BAQE_btxt6ExaHQ/company-logo_200_200/0/1637322464366/optima_sirketler_qrupu_logo?e=2147483647&v=beta&t=TXsQK8cA-Rk9pX1nfvZdR-yVlW8EQz08yKxGZAJyEzs",
-      "position": "Front-End Developer"
+      "id": 2,
+      "name": "Compar Academy",
+      "startDate": "2023-05-01",
+      "endDate": "2023-12-30",
+      "imageUrl": "https://compar.edu.az/staticfiles/assets/compar-logo-header.png",
+      "position": "Full-Stack Developer Mentor"
     },
     {
-      "id": 5,
-      "name": "Apertech ERP Solutions",
-      "startDate": "2023-07-15T00:00:00.000Z",
-      "endDate": null,
-      "imageUrl": "https://media.licdn.com/dms/image/C4D0BAQFv9j7jJNeMCg/company-logo_200_200/0/1631304961753?e=2147483647&v=beta&t=xvHkgjYFpUhNwzwZ0CKe8wKa__s5cPh7d79iffEVJ_A",
-      "position": "Front-End Developer",
+      "id": 3,
+      "name": "Socar ITRI",
+      "startDate": "2023-06-01",
+      "endDate": "2023-07-15",
+      "imageUrl": "data:image/png;base64,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",
+      "position": "Help-Desk Specialist Intern",
       "description": "description"
     }
   ],
   "messages": [
     {
-      "id": 1,
-      "name": "Murad Asadzade",
-      "email": "muradesedzade2004@gmail.com",
-      "subject": "MERN-Stack Developer",
-      "message": "Test Message for Messages API"
-    },
-    
-    
-    {
-      "id": 10,
-      "name": "Murad Asadzade",
-      "email": "muradesedzade2004@gmail.com",
-      "subject": "JS",
-      "message": "Salam"
+      "id": 9,
+      "name": "Murad",
+      "email": "murad@gmail.com",
+      "subject": "Subject",
+      "message": "Message"
     }
   ],
   "settings": [
     {
       "id": 1,
       "email": "muradesedzade2004@gmail.com",
-      "facebookLink": "https://www.facebook.com/muradasadzade/",
-      "linkedinLink": "https://www.linkedin.com/in/muradasadzade/",
-      "githubLink": "https://github.com/muradasadzade",
+      "facebookLink": "https://www.facebook.com/profile.php?id=100013490102322&mibextid=LQQJ4d/",
+      "linkedinLink": "www.linkedin.com/in/murad-asadzade-291758260",
+      "githubLink": "https://github.com/MuradAsadzade",
       "twitterLink": "https://x.com",
-      "aboutText": "Hello! I'm Murad, a passionate Front-End Developer based in Baku, Azerbaijan. With a career spanning since 2022, I thrive on the challenges of crafting user-friendly, visually appealing web sites and Ive been dedicated to crafting user-friendly web experiences, with a focus on ERP systems. Ive cultivated my skills through dedication and a relentless pursuit of improvement. Every day, I strive to push the boundaries of my knowledge, ensuring that I stay at the forefront of industry trends and technologies.",
-      "skillsText": "In id nulla magna. Nullam posuere fermentum mattis. Nunc id dui at sapien faucibus fermentum ut vel diam. Nullam tempus, nunc id efficitur sagittis, urna est ultricies eros, ac porta sem turpis quis leo. Nulla in feugiat elit. Phasellus accumsan scelerisque dolor, quis mattis justo bibendum non. Nulla sollicitudin turpis in enim elementum varius. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae",
+      "aboutText": "Hello! I'm Murad, a passionate Front-End Developer based in Baku, Azerbaijan. With a career spanning since 2022, I thrive on the challenges of crafting user-friendly, visually appealing web sites and Ive been dedicated to crafting user-friendly web experiences, with a focus on ERP systems. I have cultivated my skills through dedication and a relentless pursuit of improvement. Every day, I strive to push the boundaries of my knowledge, ensuring that I stay at the forefront of industry trends and technologies.",
+      "skillsText": "I am a diligent student currently pursuing my studies at Baku Higher Oil School in Azerbaijan, specializing in Computer Engineering. With a solid foundation in Python, Django, JavaScript, and Node.js, I have honed my skills through hands-on experience and various projects. I am passionate about leveraging technology to solve complex problems and create innovative solutions. My ambition is to contribute positively to the field of full-stack development and make a meaningful impact in the industry.",
       "clientCount": 10,
       "projectCount": 12,
       "lisenceCount": 3,
       "experienceYear": 2,
       "phoneNumber": "+994 51 430 52 20",
-      "addressText": "Azerbaijan, Baku,Qara Qarayev 102 "
+      "addressText": "Azerbaijan, Baku, Qara Qarayev 102"
     }
   ]
 }

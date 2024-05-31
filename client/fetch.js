@@ -152,6 +152,7 @@ async function fetchAndProcessExperiences() {
       slideDiv.appendChild(paragraphDate);
 
       imageElement.src = item.imageUrl;
+      imageElement.style.height="200px";
       imageElement.style.width = '200px'
       paragraph.innerText = item.position;
 
@@ -301,7 +302,7 @@ async function fetchAndProcessSettings() {
 
 
   } catch (error) {
-      console.error("Bir hata oluştu:", error);
+      console.error("Error:", error);
   }
 }
 

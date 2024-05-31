@@ -1,5 +1,5 @@
 class Skill {
-    constructor(name, percent) {
+    constructor({name, percent}) {
         this.name = name;
         this.percent = percent;
     }

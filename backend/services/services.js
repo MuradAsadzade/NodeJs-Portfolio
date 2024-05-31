@@ -9,13 +9,6 @@ const getServices = async () => {
     return new SuccessResult(null, data)
 }
 
-// const getServices = async () => {
-//     const data = await baseServices.getGenericTableData(DATABASE_KEYS.SERVICES)
-//     return new SuccessResult(null, data)
-// }
-
-
-
 /**
  * 
  * @param {Service} service 
