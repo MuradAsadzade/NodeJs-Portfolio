@@ -245,7 +245,7 @@ async function fetchAndProcessSettings() {
               aElement.className = "mr-3";
               const iElement = document.createElement("i");
               iElement.className = iconClass;
-
+              iElement.style.color="black";
               aElement.appendChild(iElement);
 
               document.getElementById("social-links").appendChild(aElement);

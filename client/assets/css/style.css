@@ -1,6 +1,5 @@
 /*----------------------------------------------------------------------------------------------------------------------
-Project:	    Selfer
-Version:        1.0.0
+
 
 Default Color   #f26c4f;
 Background Color  #020312;
@@ -359,8 +358,9 @@ B. Helpers
 -------------------------------------------*/
 
 [data-bg-image] {
-    background-size: cover;
-    background-position: 50%;
+    background-size: contain;
+    background-position:left;
+
 }
 
 .ts-background {
@@ -395,7 +395,12 @@ B. Helpers
     height: 100%;
     overflow: hidden;
     width: 100%;
+
+
+
 }
+
+
 
 .ts-background-image img, .ts-img-into-bg img {
     display: none;
